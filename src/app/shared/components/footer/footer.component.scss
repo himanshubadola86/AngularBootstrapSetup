@@ -1,0 +1,60 @@
+.footer-big {
+    padding: 30px 0;
+}
+
+.footer-black, .footer-transparent, .subscribe-line-transparent {
+    background-color: #252422;
+    color: #DDDDDD;
+}
+
+.footer {
+    background-attachment: fixed;
+    position: relative;
+    line-height: 36px;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    font-size: 85%;
+}
+
+.footer .social-area {
+    padding: 15px 0;
+}
+
+.btn-facebook {
+    color: #FFFFFF;
+    background-color: #3b5998;
+    border-color: #3b5998;
+    opacity: 0.8;
+}
+.btn-round {
+    border-radius: 30px;
+}
+
+.footer .social-area .btn {
+    margin-bottom: 3px;
+    padding: 8px;
+}
+
+.btn-just-icon {
+   
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    
+}
+
+.footer .links {
+    display: inline-block;
+}
+
+.footer .links ul.stacked-links {
+    margin-top: 10px;
+}
+.footer .links ul.uppercase-links {
+    text-transform: uppercase;
+}
+.footer .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}

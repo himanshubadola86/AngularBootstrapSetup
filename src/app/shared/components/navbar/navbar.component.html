@@ -1,0 +1,123 @@
+<header>
+  <nav class="navbar navbar-custom navbar-expand-md fixed-top nav-down #navigation">
+    <div class="container">
+
+
+      <a class="navbar-brand mr-lg-5" href="#">
+        <img src="assets/custom/images/angular2-logo.png" alt="" width="40" height="40"> AABHAR NGO
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav mr-auto ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown ml-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="false" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!-- <a class="dropdown-item" [routerLink]="['/about']" routerLinkActive="router-link-active" ="/about/corevalues">Who we are ?</a> -->
+              <a [routerLink]="['/products']"></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/public-home/about/livelihood">Core Values</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/public-home/about/education">Governing Body</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/about/partners">Our Partners</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="public-home/about/partners">Financials</a>
+              <div class="dropdown-divider"></div>
+              <!-- <a class="dropdown-item" (click)="scrollTo('section3')" [ngClass]="{ 'current-section': currentSection === 'section3' }">Accountability & Transparency</a> -->
+
+              <div (click)="scrollTo('public-home/about/section3')">Section 3
+                <!-- <ng-container *ngIf="currentSection==='section3'"></ng-container> -->
+              </div>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="public-home/about/section1">Governing Body2</a>
+
+
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-3">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Our Work
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="public-home/work/livelihood">Livelihood</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="public-home/work/education">Education</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Health</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Environment</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Heritage</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Advocacy</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-3">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Media
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Media 1</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Media 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Media 3</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-3">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Get Involved
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="public-home/involved">Donate</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Campaigns</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Volunteer</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Internship</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Career</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
+          <li class="nav-item dropdown ml-3">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Ways to Partner
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Strategic Partnership</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Employee Engagement</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Cause Marketing</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Institutions</a>
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <!-- <button type="button" class="btn btn-primary ml-3">Donate</button> -->
+    </div>
+  </nav>
+</header>

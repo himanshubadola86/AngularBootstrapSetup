@@ -1,0 +1,106 @@
+.page-header.page-header-small {
+    min-height: 65vh !important;
+    max-height: 700px;
+}
+
+.page-header {
+    background-color: #B2AFAB;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 999px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.page-header .container {
+    color: #FFFFFF;
+    position: relative;
+    z-index: 3;
+}
+
+.about-us .creators {
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.section .card-profile {
+    margin-top: 100px;
+}
+
+.about-us .more-info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about-us .more-info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.section .card-profile {
+    margin-top: 100px;
+}
+
+
+
+.page-header .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.wrapper {
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    left: 0;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    background-color: #fff;
+    margin-top:5%;
+}
+
+.about-us .section {
+    padding-top: 50px;
+}
+
+.title-uppercase {
+    text-transform: uppercase;
+}
+
+.about-us h3.title-uppercase {
+    margin-top: 50px;
+}
+
+.about-us .creators {
+    margin-top: 100px;
+}
+
+.more-info {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container {
+    max-width: 970px;
+    color: #66615b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}

@@ -1,0 +1,42 @@
+.bg-gradient-warning {
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%)!important
+}
+
+.jumbotron{
+    margin-top : 4.5rem;
+}
+
+.jumbotron-welcome {
+    background-image: url('/assets/custom/images/components/about-us-2.png');
+    background-size: cover;
+    color: black;
+    background-color: transparent;
+    min-height: 50vh;
+    background-position: center center;
+}
+.lead{
+    font-weight: 500;
+    padding-right: 40%;
+    font-size: 90%;
+}
+
+.img-fluid {
+       max-height: 70%;
+}
+
+.container {
+    max-width: 970px;
+    color: #66615b;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+h5{
+   color: #F091EA; 
+   font-weight: 500;
+}
+
+
+
+

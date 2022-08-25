@@ -1,0 +1,32 @@
+// body {
+//   min-height: 100vh;
+// }
+
+// @include media-breakpoint-up(sm) {
+//   html {
+//     font-size: .5rem;
+//   }
+// }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+.main-content{
+  margin-top : 1%;
+  margin-bottom: 1%;
+}
+
+.container{
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+

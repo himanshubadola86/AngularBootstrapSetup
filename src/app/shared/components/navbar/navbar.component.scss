@@ -1,0 +1,44 @@
+@import "../../../../assets/custom/scss/ngo_app/custom";
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-custom {
+            background-color: #CCEDFF;
+        }
+        /* Modify brand and text color */
+         
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+}
+
+a{
+    color: black;
+    font-weight: 400;
+}
+
+/*
+this is specifically set for
+screen sizes less than or equal to
+768px
+*/
+@include media-breakpoint-only(md) {
+    // .container{
+    //     background-color: aqua;
+    // }
+    // ul li{
+    //     margin-left: .5 rem !important;
+    // }
+
+    // .navbar-expand-md.navbar-collapse{
+    //     display : none !important;
+    // }
+
+    // .container{
+    //     max-width: 750px;
+    // }
+
+    
+}

@@ -1,0 +1,29 @@
+.section-image, .section-gold, .section-dark {
+    position: relative;
+}
+.section-dark {
+    background-color: #151f20;
+}
+.section-image .title, .section-image .info-title, .section-image .card-plain .card-title, .section-gold .title, .section-gold .info-title, .section-gold .card-plain .card-title, .section-dark .title, .section-dark .info-title, .section-dark .card-plain .card-title {
+    color: #ffffff !important;
+}
+
+.project-4 .card[data-background] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.container{
+	font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+.quote{
+	color: #ffffff !important;
+	font-style: italic;
+}
+
+.btn-neutral.btn-link {
+    color: #FFFFFF;
+}
